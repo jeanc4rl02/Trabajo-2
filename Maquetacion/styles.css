@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'Raleway-Italic';
+  src: url("./font/Fuentes_PPC/Raleway-ExtraLight.ttf");
+}
+
 *{
-  background-color: rgb(246, 245, 243);
+  font-family: 'Raleway-Italic';
+}
+.cards-container{
+  background-color: rgb(199, 199, 199);
+  width: 400px;
+  border-radius: 3%;
 }
 
 .img-card{
@@ -10,30 +20,33 @@
         inset 0 -3em 3em rgba(0,0,0,0.1),
               0.3em 0.3em 1em rgba(0,0,0,0.3);
   margin: 20px;
-  margin-top: 50px;
+  margin-top: 80px;
+  cursor: pointer;
 }
 
 h3, button, h5{
   padding: 10px;
+  padding-left: 20px;
   display: flex;
   background-color: rgb(232, 78, 12);
   color: white;
-  width: 39%;
+  width: 68%;
   font-size: small;
   border-radius: 10px;
   box-shadow:
         inset 0 -3em 3em rgba(0,0,0,0.1),
               0.3em 0.3em 1em rgba(0,0,0,0.3);
+  cursor: pointer;
 }
 
 h3 {
   position: relative;
   margin-top: -38px;
-  margin-left: 45px;
+  margin-left: 48px;
 }
 
 h5 {
-  width: 7%;
+  width: 15%;
   position: relative;
   margin-bottom: -100px;
   margin-left: 301px;
@@ -45,13 +58,13 @@ h5 {
   margin-left: 30px;
   margin-top: 5px;
   font-size: 18px;
-  width: 50%;
+  width: 90%;
 }
 .seccion3{
   display: flex;
   flex-direction: row;
   margin-left: 25px;
-  margin-top: -20px;
+  margin-top: -15px;
 }
 
 .precios{
@@ -68,3 +81,13 @@ button {
   border: none;
   cursor: pointer;
 }
+.precio-dcto{
+  color: rgb(249, 26, 26);
+}
+
+.img-card:hover {
+  max-width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
