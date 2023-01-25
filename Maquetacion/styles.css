@@ -1,0 +1,22 @@
+*{
+  background-color: rgb(246, 245, 243);
+}
+
+.img-card{
+  width: 50vh;
+  height: 50vh;
+  border-radius: 5%;
+  box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+              0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+h3, button, h5{
+  padding: 10px;
+  display: flex;
+  background-color: rgb(212, 83, 27);
+  color: white;
+  width: 40%;
+  font-size: small;
+  border-radius: 10px;
+}
